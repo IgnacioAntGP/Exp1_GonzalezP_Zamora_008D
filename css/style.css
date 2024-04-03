@@ -1,0 +1,130 @@
+/*--Importar fuente Open Sans-->*/
+
+/* Formateo de página */
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Bloque de selectores Generales */
+
+.redes_sociales{
+    list-style: none;
+}
+
+a:link, a:visited{
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover{
+    color: blue;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:active{
+    background-color: white;
+  color: black;
+  border: 2px solid green;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+/* Bloque de selectores por Clases */
+.navbar{
+    background-color: #ecad01;
+}
+
+.main{
+    background-color: #AEC670;
+}
+
+.contenido{
+    background-color: #AEC670
+}
+
+.nav-item{
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+    /*-> Contenido de home */
+.container-fluid .content_img{
+    width: 400px;
+    height: 400px;
+
+}
+    /* -> contenido de Sobre nosotros*/
+.us_mision{
+    background-color: #8b6e28;
+    margin: 10px;
+}
+
+.us_obj{
+    background-color: #d4ba66;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.us_another{
+    background-color: #b7751f;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.video{
+    margin: auto;
+    display: block;
+}
+
+    /*-> Contenido de productos */
+
+.card{
+    margin: 8px;
+}
+
+.card .card-img-top{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.card .card-body{
+    border: 2px solid black;
+}
+
+    /*-> Contenido pie de página*/
+
+.pie_pag{
+    background-color: #a2774c;
+}
+
+.whatsapp img{
+    padding: 15px;
+}
+
+/* Bloque de selectores por IDs */
+#logo{
+    width: 40px;
+}
+
+#foto_csl{
+    width: 200px;
+    height: 500px;
+}
+
+#video_grid{
+    margin-top: 50px;
+}
+
