@@ -31,12 +31,12 @@ a:hover{
 
 a:active{
     background-color: white;
-  color: black;
-  border: 2px solid green;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
 
 
@@ -60,12 +60,12 @@ a:active{
 }
 
     /*-> Contenido de home */
-.container-fluid .content_img{
+.content_img{
     width: 400px;
     height: 400px;
-
 }
     /* -> contenido de Sobre nosotros*/
+
 .us_mision{
     background-color: #8b6e28;
     margin: 10px;
@@ -82,9 +82,10 @@ a:active{
     margin-left: 10px;
     margin-right: 10px;
 }
+
 .video{
-    margin: auto;
-    display: block;
+    width: 100%;
+    height: 500px;
 }
 
     /*-> Contenido de productos */
@@ -125,6 +126,6 @@ a:active{
 }
 
 #video_grid{
-    margin-top: 50px;
+    margin: 50px;
 }
 
