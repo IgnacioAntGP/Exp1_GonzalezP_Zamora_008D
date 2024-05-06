@@ -1,0 +1,26 @@
+/* Formateo de página */
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contenedor-form{
+    background-color: #AEC670;
+    margin-top: 15%;
+    width: 800px;
+    padding: 30px;
+}
+
+.form-login h4{
+    color: black;
+}
+
+.form-control{
+    width: 500px;
+    margin-bottom: 15px;
+}
+
+.form-register h1{
+    color: black;
+}
