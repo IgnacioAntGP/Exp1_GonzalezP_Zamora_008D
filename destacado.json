@@ -1,0 +1,40 @@
+{
+    "productosDestacados":[
+        {
+            "id":"1",
+            "nombre":"Mermelada Frutilla",
+            "precio":"4.000",
+            "descripcion":"Mermelada de 500 gr" ,
+            "producto":"mermelada"
+            
+        },
+        {
+            "id":"2",
+            "nombre":"Mermelada Higo",
+            "precio":"4.000",
+            "descripcion":"Mermelada de 500 gr",
+            "producto":"mermelada"
+        },
+        {
+            "id":"3",
+            "nombre":"Mermelada Durazno",
+            "precio":"4.000",
+            "descripcion":"Mermelada de 500 gr",
+            "producto":"mermelada"
+        },
+        {
+            "id":"4",
+            "nombre":"Miel Natural",
+            "precio":"5.800",
+            "descripcion":"Miel de 1 kg",
+            "producto":"miel"
+        },
+        {
+            "id":"5",
+            "nombre":"Vino Late Harvest",
+            "precio":"3.500",
+            "descripcion":"Vino de 375 ml",
+            "producto":"licor"
+        }
+    ]
+}
