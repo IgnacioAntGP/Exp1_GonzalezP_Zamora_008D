@@ -19,6 +19,7 @@ $(function(){
                 digits: true,
                 maxlength: 10
             },
+            localidad:"required",
             vehiculo:"required",
             producto:{
                 required: true,
@@ -38,6 +39,7 @@ $(function(){
                 required: "Debe llenar este campo",
                 maxlength: "Debe ingresar un teléfono válido"
             },
+            localidad:"Debe elegir una opción",
             vehiculo: "Debe ingresar una opcion",
             producto:{
                 required: "Debe llenar este campo",
