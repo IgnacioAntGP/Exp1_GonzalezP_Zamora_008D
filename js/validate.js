@@ -1,5 +1,5 @@
-//Funciona correctamente, añadir el resto de campos y validaciones
 $(function(){
+    //Validación del formulario de distribuidores
     $("#form-distrb").validate({
         //Reglas de validación
         rules:{

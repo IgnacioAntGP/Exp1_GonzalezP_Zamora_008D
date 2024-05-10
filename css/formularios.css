@@ -37,3 +37,11 @@ label.error{
 .form-register h1{
     color: black;
 }
+
+#forgot-pass{
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    display: inline-block;
+}

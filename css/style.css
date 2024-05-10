@@ -57,6 +57,7 @@ a.nav-link:active, a.enlace_footer:active{
     padding: 5px;
     margin: 10px;
     border: 1px solid black;
+    width: auto;
 }
 
     /*-> Contenido de home */
@@ -66,8 +67,10 @@ a.nav-link:active, a.enlace_footer:active{
 }
 
 .content_img{
-    width: 400px;
+    width: auto;
     height: 400px;
+    margin-top: 25px;
+    display: inline-block;
 }
     /* -> contenido de Sobre nosotros*/
 
