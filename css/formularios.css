@@ -20,6 +20,11 @@
     padding: 30px;
 }
 
+/*Aqui se controla el diseño de los errores arrojados por el Validate*/
+label.error{
+    color: darkred;
+}
+
 .form-login h4{
     color: black;
 }
