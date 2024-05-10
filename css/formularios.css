@@ -5,9 +5,17 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+/*Añadir un fondo de imagen a los formularios, la imagen está en \img\fondo_valle_colchagua.jpg*/
+
 .contenedor-form{
     background-color: #AEC670;
     margin-top: 15%;
+    width: 800px;
+    padding: 30px;
+}
+.contenedor-form-distrb{
+    background-color: #AEC670;
+    margin: auto;
     width: 800px;
     padding: 30px;
 }
