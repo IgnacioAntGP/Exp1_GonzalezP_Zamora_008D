@@ -1,29 +1,23 @@
-
-
-
-
-/*
-    POR TESTEAR AÚN
-$().ready(function(){
-    $("#form-login").validate({
+//Funciona correctamente, añadir el resto de campos y validaciones
+$(function(){
+    $("#form-distrb").validate({
         //Reglas de validación
         rules:{
-            nomb_usuario:{
+            // NAME del INPUT
+            nombre:{
                 required: true,
-                minlenght: 6
+                minlength: 3
             },
-            contraseña:{
+            pass1: "required",
+            pass2:{
                 required: true,
-                minlenght: 6
+                equalTo: "#pass1"
             }
         },
         messages:{
-            nomb_usuario: "Ingrese su nombre de usuario porfavor",
-            contraseña: "Ingrese su contraseña porfavor"
+            nombre: "Debe ingresar un mínimo de 3 caracteres"
         }
     });
 });
-*/
-
 
 
