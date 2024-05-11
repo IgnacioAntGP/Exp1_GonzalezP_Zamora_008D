@@ -1,6 +1,6 @@
-function Mostrarproductos(){
+function mostrarDistrib(){
     let url="https://jsonplaceholder.typicode.com/users";
-    //implementado el fetch para la informacion de los productos
+    //implementado el fetch para la informacion de los distribuidores
     fetch(url)
     .then(response=> response.json())
     .then(data => mostrarDistrib(data))
@@ -8,48 +8,48 @@ function Mostrarproductos(){
 
     const mostrarDistrib=(data)=>{
         console.log(data)
-        let producto=""
+        let distrib=""
         for(var i=0;i<data.length;i++){
-            producto+=`<tr>
+            distrib+=`<tr>
             <td>${data[i].id}</td>
-            <td>${data[i].nombre}</td>
-            <td>${data[i].precio}</td>
-            <td>${data[i].descripcion}</td>
-            <td>${data[i].producto}</td>
+            <td>${data[i].name}</td>
+            <td>${data[i].address.city}</td>
+            <td>${data[i].address.zipcode}</td>
+            <td>${data[i].phone}</td>
             </tr>`
         }
-        document.getElementById('productosDestacados').innerHTML=producto;
+        document.getElementById('distribuidores').innerHTML=distrib;
     }
 }
 
-function buscarProducto(){
+function buscarDistrib(){
     let url="https://jsonplaceholder.typicode.com/users";
-    let producto=document.getElementById('producto').value;
+    let distrib_dir=document.getElementById('distrib_dir').value;
     fetch(url)
     .then(response => response.json())
-    .then(data => buscardestacado(data))
+    .then(data => buscarDistrib(data))
     .catch(error => console.log(error))
 
-    const buscardestacado=(data)=>{
+    const buscarDistrib=(data)=>{
         console.log(data)
-        let destacado=""
-        if(document.getElementById('producto').selectedIndex==0){
+        let buscar=""
+        if(document.getElementById('distrib_dir').selectedIndex==0){
             Mostrarproductos();
         }
         else{
             for(var i=0;i<data.length;i++){
-                if(producto==data[i].producto)
+                if(distrib_dir==data[i].address.city)
                     {
-                        destacado+=`<tr>
+                        buscar+=`<tr>
                         <td>${data[i].id}</td>
-                        <td>${data[i].nombre}</td>
-                        <td>${data[i].precio}</td>
-                        <td>${data[i].descripcion}</td>
-                        <td>${data[i].producto}</td>
+                        <td>${data[i].name}</td>
+                        <td>${data[i].address.city}</td>
+                        <td>${data[i].address.zipcode}</td>
+                        <td>${data[i].phone}</td>
                         </tr>`
                     }
             }
-            document.getElementById('productosDestacados').innerHTML=destacado;
+            document.getElementById('distribuidores').innerHTML=buscar;
         }
     }
 }
