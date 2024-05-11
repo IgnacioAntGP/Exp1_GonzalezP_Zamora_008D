@@ -25,22 +25,21 @@ label.error{
     color: darkred;
 }
 
-.form-login h4{
-    color: black;
-}
-
+/*Diseño de los inputs, labels y botones de formularios*/
+/*Diseño general*/
 .form-control{
     width: 500px;
     margin-bottom: 15px;
 }
 
+/*Login de usuarios*/
+.form-login h4{
+    color: black;
+}
+
+/*Formulario de registro de usuarios*/
 .form-register h1{
     color: black;
 }
 
-#forgot-pass{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-decoration: none;
-    display: inline-block;
-}
+/*Formulario de registro de distribuidores*/

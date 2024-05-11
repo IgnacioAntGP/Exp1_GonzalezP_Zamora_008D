@@ -1,3 +1,4 @@
+//Funcion de develar contraseña
 function revPass(){
     let pass_input = document.getElementById('contraseña').type;
     console.log(pass_input);
@@ -9,7 +10,14 @@ function revPass(){
     }
 }
 
-//Redirige la pagina actual a la de registro de usuarios
+/*$(document).ready(function(){
+    $('login').click(function(){
+
+    });
+});*/
+
+
+//Desde el botón "Registrarme" redirige la pagina actual a la de registro de usuarios
 function redirect(){
     location.replace('registro_user.html');
 }
