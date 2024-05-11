@@ -8,6 +8,13 @@ body{
     width: 800px;
     padding: 30px;
 }
+
+.contenedor-distrib{
+    background-color: #AEC670;
+    margin: auto;
+    width: 800px;
+    padding: 30px;
+}
 .table{
     margin-top: 20px;
 
