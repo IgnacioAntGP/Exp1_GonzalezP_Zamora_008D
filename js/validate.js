@@ -46,6 +46,7 @@ $(document).ready(
                     required: "Debe llenar este campo",
                     minlength: "Debe escoger un mínimo de 2 opciones"
                 }
-            }
+            },
+
     });
 });
