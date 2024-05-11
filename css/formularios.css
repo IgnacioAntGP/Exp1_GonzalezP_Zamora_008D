@@ -4,7 +4,9 @@
     margin: 0px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+body{
+    background-color: #ecad01;
+}
 /*Añadir un fondo de imagen a los formularios, la imagen está en \img\fondo_valle_colchagua.jpg*/
 
 .contenedor-form{
@@ -19,6 +21,14 @@
     width: 800px;
     padding: 30px;
 }
+.contenedor-form-users{
+    background-color: #AEC670;
+    margin: auto;
+    width: 800px;
+    padding: 30px;
+    background-image: none;
+}
+
 
 /*Aqui se controla el diseño de los errores arrojados por el Validate*/
 label.error{

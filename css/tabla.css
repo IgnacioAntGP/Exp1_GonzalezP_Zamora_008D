@@ -1,0 +1,14 @@
+/*Estilo para la api de productos destacados*/
+body{
+    background-color: #ecad01;
+}
+.contenedor-productosdestacados{
+    background-color: #AEC670;
+    margin: auto;
+    width: 800px;
+    padding: 30px;
+}
+.table{
+    margin-top: 20px;
+
+}
