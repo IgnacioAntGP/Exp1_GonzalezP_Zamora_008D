@@ -7,7 +7,13 @@
 body{
     background-color: #ecad01;
 }
-/*Añadir un fondo de imagen a los formularios, la imagen está en \img\fondo_valle_colchagua.jpg*/
+/*Añadir un fondo de imagen a los formularios, la imagen está en \img\fondo_valle_colchagua.jpg
+
+body{
+    background-image: url(.../img/fondo_valle_colchagua.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+*/
 
 .contenedor-form{
     background-color: #AEC670;
