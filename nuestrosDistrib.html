@@ -14,10 +14,11 @@
         <h2>Nuestros distribuidores</h2>
         <hr>
         <div class="row">
+            <!--Boton para mostrar Data-->
             <div class="col-md-5">
-                <input type="button" value="Mostrar" onclick="mostrarDistrib()" class="btn btn-outline-light text-dark">
+                <input type="button" value="Mostrar" onclick="mostrarDistrib()" class="btn btn-primary">
             </div>
-
+            <!--Boton para Filtrar por comuna/provincia-->
             <div class="col-md-5">
                 <select name="distrib_dir" id="distrib_dir" class="form-select" onclick="buscarDistrib()">
                     <option value="">Seleccione la zona a buscar</option>
@@ -27,7 +28,7 @@
                 </select>
             </div>
         </div>
-
+        <!--Tabla de datos-->
         <table class="table">
             <thead>
                 <tr>
@@ -42,8 +43,9 @@
 
             </tbody>
         </table>
+        <hr>
+        <input class="btn btn-primary" type ="button" id="btn-volver" value="Volver" onclick="redirectIndex()">
     </div>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/distribuidor.js"></script>
 </body>

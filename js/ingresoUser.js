@@ -10,13 +10,6 @@ function revPass(){
     }
 }
 
-/*$(document).ready(function(){
-    $('login').click(function(){
-
-    });
-});*/
-
-
 //Desde el botón "Registrarme" redirige la pagina actual a la de registro de usuarios
 function redirect(){
     location.replace('registro_user.html');

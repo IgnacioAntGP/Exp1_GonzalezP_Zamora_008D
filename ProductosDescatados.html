@@ -14,11 +14,12 @@
         <hr>
         <h2>Productos Destacados</h2>
         <hr>
+        <!--Boton para mostrar la data completa-->
         <div class="row">
             <div class="col-md-5">
                 <input type="button" value="Mostrar productos" onclick="Mostrarproductos()" class="btn btn-primary">
             </div>
-
+        <!--Botón para filtrar por tipo de producto-->
             <div class="col-md-5">
                 <select name="producto" id="producto" class="form-select" onclick="buscarProducto()">
                     <option value="">Seleccione tipo de Producto</option>
@@ -28,7 +29,7 @@
                 </select>
             </div>
         </div>
-
+        <!--Tabla de datos consultados en \json\destacado.json-->
         <table class="table" >
             <thead>
                 <tr>
@@ -43,10 +44,10 @@
 
             </tbody>
         </table>
+        <hr>
+        <input class="btn btn-primary" type ="button" id="btn-volver" value="Volver" onclick="redirectIndex()">
     </div>
-    
-    <script src="funcionDestacado.js"></script>
+    <script src="js/funcionDestacado.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
 </body>
 </html>

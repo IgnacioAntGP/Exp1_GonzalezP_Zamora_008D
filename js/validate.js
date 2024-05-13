@@ -47,6 +47,5 @@ $(document).ready(
                     minlength: "Debe escoger un mínimo de 2 opciones"
                 }
             },
-
     });
 });

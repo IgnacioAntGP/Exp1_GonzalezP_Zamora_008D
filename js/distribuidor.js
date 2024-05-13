@@ -1,3 +1,4 @@
+//Implementación de API pública - Usuarios/Dummy
 function mostrarDistrib(){
     let url="https://jsonplaceholder.typicode.com/users";
     //implementado el fetch para la informacion de los distribuidores
@@ -34,7 +35,7 @@ function buscarDistrib(){
         console.log(data)
         let buscar=""
         if(document.getElementById('distrib_dir').selectedIndex==0){
-            Mostrarproductos();
+            mostrarDistrib();
         }
         else{
             for(var i=0;i<data.length;i++){
@@ -52,4 +53,9 @@ function buscarDistrib(){
             document.getElementById('distribuidores').innerHTML=buscar;
         }
     }
+}
+
+//Funcion para regresar al menú principal
+function redirectIndex(){
+    location.replace('index.html');
 }

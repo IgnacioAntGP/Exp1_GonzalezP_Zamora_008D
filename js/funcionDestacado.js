@@ -47,9 +47,14 @@ function buscarProducto(){
                         <td>${data[i].descripcion}</td>
                         <td>${data[i].producto}</td>
                         </tr>`
-                    }     
+                    }
             }
             document.getElementById('productosDestacados').innerHTML=destacado;
         }
     }
+}
+
+//Funcion para regresar al menú principal
+function redirectIndex(){
+    location.replace('index.html');
 }
